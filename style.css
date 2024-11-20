@@ -17,7 +17,6 @@ body {
 
 h1 {
     color: #776e65;
-    font-size: 4em;
 }
 
 .container {
@@ -25,6 +24,10 @@ h1 {
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
+}
+
+h1 {
+    font-size: 4em;
 }
 
 .score-container {
@@ -51,6 +54,10 @@ h1 {
     height: 97.5px;
     border: 5px solid #bbada0;
     font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cover-screen {
@@ -61,8 +68,8 @@ h1 {
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -73,8 +80,64 @@ h1 {
     border-radius: 0.5em;
     font-size: 1em;
     letter-spacing: 0.2px;
-    color: white;
+    color: #ffffff;
 }
+
 .hide {
     display: none;
+}
+
+.box-2 {
+    background-color: #eee4da;
+    color: #727371;
+}
+
+.box-4 {
+    background-color: #eee1c9;
+    color: #727371;
+}
+
+.box-8 {
+    background-color: #f3b27a;
+    color: white;
+}
+
+.box-16 {
+    background-color: #f69664;
+    color: white;
+}
+
+.box-32 {
+    background-color: #f77c5f;
+    color: white;
+}
+
+.box-64 {
+    background-color: #f75f3b;
+    color: white;
+}
+
+.box-128 {
+    background-color: #edd073;
+    color: white;
+}
+
+.box-256 {
+    background-color: #edcc63;
+    color: white;
+}
+
+.box-512 {
+    background-color: #edc651;
+    color: white;
+}
+
+.box-1024 {
+    background-color: #eec744;
+    color: white;
+}
+
+.box-2048 {
+    background-color: #ecc230;
+    color: white;
 }
